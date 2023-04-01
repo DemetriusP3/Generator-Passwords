@@ -1,7 +1,6 @@
 from random import choice
 import string
 import sys
-import datetime
 
 def gen_password(spes_chars, len_passw):
     chars = '' if not bool(spes_chars) else '#$*-+=@?!&_'
